@@ -1,0 +1,27 @@
+Total Sim Time: 10.0 s
+Quantum Size: 50000.0 us
+Context Switch Time: 20.0 us
+Average Process Length: 50000.0 us
+Average Process Creation Interval: 1.0E8 us
+I/O Bound Percentage: 0.0 %
+Average I/O Service Time: 5000.0 us
+
+Time 0	Event 'New Process': pid=1 totalCPU=30705.0 CPU-bound next New at	0
+Time 30725	Event 'Process Finished': pid=1 totalCPU=30705.0 CPU-bound
+
+# of created processes:		1
+CPU Utilization: 		0.30705% ( 30705 us )
+Time in context switches: 	20.0 us
+Completed Processes:		1
+Average Turnaround Time:	30725 us
+Average Time on Ready Queue:	20 us
+
+-- CPU Bound --
+Completed CPU Bound Processes:	1
+Average Turnaround Time:	30725 us
+Average Waiting Time:		20 us
+
+-- I/O Bound --
+Completed I/O Bound Processes:	0
+
+End of Simulation.
