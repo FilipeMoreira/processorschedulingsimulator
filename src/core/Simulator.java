@@ -4,15 +4,7 @@
 
 package core;
 
-import java.awt.EventQueue;
 import java.io.IOException;
-import java.util.Comparator;
-import java.util.PriorityQueue;
-import java.util.Queue;
-import java.util.Stack;
-
-import javax.swing.plaf.synth.SynthSeparatorUI;
-
 import util.Constants;
 import util.Exponential;
 import util.FileReader;
@@ -95,8 +87,6 @@ public class Simulator {
 
 		//create process on CPU
 		Process processOnCPU = null;
-
-		Stack<Event> doneEvents = new Stack<Event>();
 		
 		//create the first event
 		Event event = new Event(++eventCount, clock, 0);

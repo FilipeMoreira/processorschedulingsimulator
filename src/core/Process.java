@@ -4,8 +4,6 @@
 
 package core;
 
-import java.util.Date;
-
 public class Process {
 	private double totalCPUTime; // In microseconds
 	private boolean IOBound;
